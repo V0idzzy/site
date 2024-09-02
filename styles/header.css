@@ -35,17 +35,18 @@ header nav img:hover {
     transform: scale(1);
 }
 
-header nav .profilePic:hover{
+header nav .profilePic:hover {
     box-shadow: 0px 0px 5px black;
     border: solid red;
     border-radius: 50%;
     border-width: .35em;
 }
 
-header nav .mail{
+header nav .mail {
     filter: opacity(0.6);
 }
-header nav .mail:hover{
+
+header nav .mail:hover {
     filter: opacity(1);
 }
 
