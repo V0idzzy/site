@@ -28,7 +28,7 @@ let AddFanArts = (data) => {
         newArt.innerHTML =
             `
                 <h3 class="art-type">${art.type}</h3>
-                <img class="art" src="${art.path}">
+                <img class="art" src="/${art.path}">
                 <span class="artist-username">${art.username}</span>
             `;
         fanart.appendChild(newArt);
