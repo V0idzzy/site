@@ -1,0 +1,81 @@
+/* Main container for all links */
+.linktree-container {
+    background: #f7f1f8; /* Soft pastel background */
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 50%; /* Set to 50% of the screen width */
+    margin: auto;
+    text-align: center;
+    margin-top: 5%;
+}
+
+/* Grid layout for links */
+.links {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Ensures 2 images per column */
+    gap: 20px 40px; /* Horizontal gap set to 40px, vertical gap set to 20px */
+    padding: 0;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Individual link containers */
+.link-container {
+    display: flex;
+    align-items: center;
+    background: #fde2ff; /* Soft pastel pink */
+    padding: 12px;
+    border-radius: 12px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Soft drop shadow */
+    transition: 0.3s ease;
+    width: 100%;
+    justify-content: flex-start; /* Align items to start */
+}
+
+/* The actual link */
+.link-container a {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a4a5d; /* Soft muted purple */
+}
+
+/* Icon styling */
+.link-container img {
+    width: 36px; /* Icon size */
+    height: 36px;
+    object-fit: contain;
+    margin-right: 10px; /* Space between icon and text */
+}
+
+/* Text inside the link */
+.link-container span {
+    flex-grow: 1;
+    text-align: center; /* Centers text inside the background */
+}
+
+/* Hover effect */
+.link-container:hover {
+    background: #fbc4ff; /* Slightly darker pastel pink */
+    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.15); /* Stronger shadow */
+}
+
+
+/* Style for main heading (h1) */
+h1 {
+    font-family: 'Arial', sans-serif; /* Use a clean sans-serif font */
+    font-size: 4rem; /* Large size for main heading */
+    font-weight: bold;
+    color: #5a4a5d; /* Muted lavender color for text */
+    margin: 20px 0;
+    padding: 10px;
+    background-color: #f0e6f6; /* Soft pastel lavender background */
+    border-radius: 12px; /* Rounded corners for a soft effect */
+    display: inline-block; /* Ensures the background doesn't stretch across the full width */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.1); /* Soft drop shadow for depth */
+}
+

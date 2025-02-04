@@ -1,73 +1,86 @@
+/* Header Styling */
 header {
-    background-color: lightblue;
+    background-color: #f0e6f6; /* Soft pastel lavender background */
     height: 7em;
-    margin: 0em;
-    padding: 0em;
+    margin: 0;
+    padding: 0;
+    border-bottom: 2px solid #d1a7f5; /* Soft pink border at the bottom */
 }
 
 header nav {
     height: 100%;
     width: 100%;
     display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: space-between; /* Space out items evenly */
+    padding: 0 2em; /* Add some horizontal padding */
+    box-sizing: border-box; /* Ensures padding doesn't overflow the container */
 }
 
-header nav a {
-    display: contents;
-}
-
-header nav img {
-    transition: .2s;
-    max-height: 100%;
-    margin: .3em;
-    margin-left: .5em;
-    margin-right: .5em;
-    transform: scale(0.8);
-}
-
+/* Profile Pic Styling */
 header nav .profilePic {
-    box-shadow: 0px 0px 5px black;
-    border: solid blue;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border: solid #c3a2d7; /* Soft lilac border */
     border-radius: 50%;
-    border-width: .35em;
-}
-
-header nav img:hover {
-    transform: scale(1);
+    border-width: .3em;
+    max-height: 100%; /* Keep it responsive to container height */
+    transition: transform .2s ease, box-shadow .3s ease, border-color .3s ease;
 }
 
 header nav .profilePic:hover {
-    box-shadow: 0px 0px 5px black;
-    border: solid red;
-    border-radius: 50%;
-    border-width: .35em;
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    border-color: #f0b7d1; /* Soft peach border on hover */
 }
 
+/* Mail Icon Styling */
 header nav .mail {
-    filter: opacity(0.6);
+    max-height: 40px; /* Set max height to 40px */
+    max-width: 40px;  /* Set max width to 40px */
+    filter: opacity(0.7);
+    transition: filter 0.3s ease, transform 0.2s ease;
+    align-self: center; /* Align the mail icon vertically in the center */
 }
 
 header nav .mail:hover {
     filter: opacity(1);
+    transform: scale(1.1); /* Slight zoom-in effect on hover */
 }
 
+/* Navigation List Styling */
 header nav ul {
-    width: 100%;
     display: flex;
-    margin: 2em;
-    list-style: none;
+    margin: 0;
     padding: 0;
-    justify-content: space-evenly;
+    list-style: none;
+    justify-content: center; /* Center the navigation items */
+    gap: 2em; /* Space between the list items */
+    flex-grow: 1; /* Allow the navigation items to take up remaining space */
 }
 
 header nav ul li {
-    transition: .2s;
-    transform: scale(0.8);
-    padding: .8em;
-    border-radius: 15%;
-    font-size: larger;
-    background-color: aliceblue;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding: .8em 1.5em;
+    border-radius: 30px; /* Soft rounded corners */
+    background-color: #f6e0ff; /* Soft pastel purple background */
+    color: #5a4a5d; /* Muted lavender color */
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 header nav ul li:hover {
-    transform: scale(1);
+    background-color: #f9d5e5; /* Slightly darker pink on hover */
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: inherit; /* Inherit text color */
+}
+
+/* Adjusting the hover effects for the mail icon */
+header nav .mail:hover {
+    filter: opacity(1);
+    transform: scale(1.1);
 }
