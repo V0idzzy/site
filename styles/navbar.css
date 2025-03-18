@@ -1,0 +1,23 @@
+.navbar {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 2em;
+
+}
+
+.navbar .nav-links {
+  background-color: blue;
+}
+
+.mail img {
+  max-width: 100px;
+}

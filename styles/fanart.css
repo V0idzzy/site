@@ -1,74 +1,13 @@
-/* General container for the fanart gallery */
 .fanart-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    padding: 2rem;
-    justify-items: center;
-    background-color: #f4f4f9; /* Soft background color */
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* Ensure the card itself is not affected by <a> tag's default behavior */
-.fanart-container .card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #ffffff; /* White background for contrast */
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    overflow: hidden;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    text-decoration: none; /* Remove underline from the card */
-    cursor: pointer; /* Pointer cursor to indicate it's clickable */
+.fanart-container img {
+  max-width: 10em;
+  transition: .5s ease;
 }
 
-/* Scale and shadow effect on hover */
-.fanart-container .card:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* Art type text (e.g., "FanArt") */
-.fanart-container .card .art-type {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color: #555555;
-    margin: 1rem 0;
-    text-align: center;
-}
-
-/* Art image styling */
-.fanart-container .card .art {
-    width: 100%;
-    height: auto;
-    object-fit: contain; /* Ensures images are well-contained */
-    aspect-ratio: 4 / 3; /* Maintains consistency between horizontal/vertical images */
-    max-height: 300px; /* Prevents very tall images from breaking the layout */
-    background-color: #f0f0f0; /* Placeholder background for images */
-}
-
-/* Artist username (styled as regular text) */
-.fanart-container .card .artist-username {
-    font-size: 1rem; /* Adjust font size */
-    color: #333333; /* Dark grey for better readability */
-    font-weight: 600; /* Bold weight to make the username stand out */
-    margin-top: 0.5rem; /* Move the name higher on the card */
-    text-align: center;
-    display: inline-block;
-    text-decoration: none; /* No underline */
-    transition: color 0.2s ease; /* Smooth color transition */
-}
-
-/* Hover effect for the artist username (color change on hover) */
-.fanart-container .card .artist-username:hover {
-    color: #0073e6; /* Blue color on hover */
-}
-
-/* Mobile responsiveness */
-@media (max-width: 600px) {
-    .fanart-container {
-        grid-template-columns: 1fr; /* Single column on small screens */
-        padding: 1rem;
-    }
+.fanart-container img:hover {
+  transform: scale(1.1);
 }
