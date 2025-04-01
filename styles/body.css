@@ -1,5 +1,18 @@
+:root {
+  --primary-color-1: #F6D9FF;
+  --primary-color-2: #F2E8F7;
+
+  --secondary-color-1: #DEB9EA;
+  --secondary-color-2: #DEA2FF;
+
+  --accent-color-1: #C959F5;
+  --accent-color-2: #DAA0ED;
+}
+
 body {
-  background-color: #E6BAFF;
+  background-color: white;
   margin: 0;
   font-size: 2em;
+  font-family: Fredoka, sans-serif;
+  font-weight: 400;
 }

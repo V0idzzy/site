@@ -1,30 +1,36 @@
-header {
-  background-color: #DDA1FF;
-
+.description {
+  background-color: var(--secondary-color-2);
+  margin: 0;
 }
 
-.description {
-  background-color: #D1A7DF;
-  margin: 3% 10%;
-  padding: 2%;
-  border-radius: 20px;
+.description h1 {
+  padding: 0em 1em 0em 1em;
+  margin: 0;
+}
+
+.description p {
+  padding: 0em 1em 1em 1em;
+  margin: 0;
 }
 
 .description img {
-  max-width: 100%;
-  border-radius: 30px;
+  width: 100%;
 }
 
 .links {
-  background-color: #D1A7DF;
-  margin: 3% 10%;
-  padding: 2%;
-  border-radius: 20px;
+  background-color: var(--secondary-color-1);
+  padding-bottom: 1em;
 }
 
 .link-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+}
+
+.links h1 {
+  margin: 0;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 
 .links a:first-of-type {
@@ -34,7 +40,7 @@ header {
 }
 
 .links img {
-  max-width: 40px;
+  max-width: 2em;
 }
 
 .links a {
@@ -42,7 +48,7 @@ header {
   gap: 1em;
   text-align: center;
   text-decoration: none;
-  background-color: #C959F5;
+  background-color: var(--accent-color-1);
   margin: 1% 5%;
   padding: 2%;
   border-width: 4px;
@@ -54,4 +60,16 @@ header {
 
 .links a:hover {
   transform: scale(1.03);
+}
+
+@media (max-width: 800px) {
+  .links a {
+    grid-column: span 2;
+  }
+
+  .links a:first-of-type {
+    margin: 1% 5%;
+    padding: 2%;
+    grid-column: span 2;
+  }
 }
