@@ -1,5 +1,4 @@
 //generate supporter quotes divs 
-//show a line of text or change color if winner
 
 fetch("data/supporters.json")
     .then(response => {
@@ -10,25 +9,22 @@ fetch("data/supporters.json")
     })
     .then(data => {
         console.log(data);
-        AddFanArts(data);
+        AddQuote(data);
     })
     .catch(error => {
         console.error('fetch error: ', error);
     })
 
 
-let AddFanArts = (data) => {
-    let fanart = document.querySelector(".quote-container");
-    data.forEach(art => {
-        let newArt = document.createElement('a');
-        newArt.setAttribute("class", "fanart-card");
-        newArt.setAttribute("href", `https://twitter.com/${art.username}`);
-        newArt.setAttribute("alt", `Fan Art from ${art.type} credit: ${art.username}`)
-        newArt.setAttribute("target", "_blank");
-        newArt.innerHTML =
+let AddQuote = (data) => {
+    let quotes = document.querySelector(".quote-container");
+    data.forEach(quote => {
+        let newQuote = document.createElement('div');
+        newQuote.setAttribute("class", "quote-card");
+        newQuote.innerHTML =
             `
-                <img class="art" src="${art.path}">
+              <p>${quote.username}: ${quote.quote}</p>
             `;
-        fanart.appendChild(newArt);
+        quotes.appendChild(newQuote);
     });
 }
