@@ -1,18 +1,18 @@
-{
+[
   {
     "username": "Petroburg",
-    "comment": "You either die a hero or you live long enough to see yourself becoming the villain"
+    "quote": "You either die a hero or you live long enough to see yourself becoming the villain"
   },
   {
     "username": "Luca_Nassu",
-    "comment": "I’m Not Me When I’m Moomie Meadows"
+    "quote": "I’m Not Me When I’m Moomie Meadows"
   },
   {
     "username": "cryptens",
-    "comment": "Snakes don't belong in Alaska"
+    "quote": "Snakes don't belong in Alaska"
   },
   {
     "username": "Menacedbysociety",
-    "comment": "Lil guy, what's a frogs favorite year? A leap year!"
+    "quote": "Lil guy, what's a frogs favorite year? A leap year!"
   }
-}
+]
