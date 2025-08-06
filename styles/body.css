@@ -1,12 +1,8 @@
 :root {
-  --primary-color-1: #F6D9FF;
-  --primary-color-2: #F2E8F7;
-
-  --secondary-color-1: #DEB9EA;
-  --secondary-color-2: #DEA2FF;
-
-  --accent-color-1: #C959F5;
-  --accent-color-2: #DAA0ED;
+  --dark: #292861;
+  --light: #FFFFFF;
+  --primary: #7372B5;
+  --accent: #F0EDFF;
 }
 
 body {
@@ -15,4 +11,10 @@ body {
   font-size: 2em;
   font-family: Fredoka, sans-serif;
   font-weight: 400;
+    color: var(--dark);
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 1.5em;
 }

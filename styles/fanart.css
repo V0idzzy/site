@@ -1,6 +1,7 @@
 .fanart-container {
   display: flex;
   flex-wrap: wrap;
+  background-color: var(--light);
 }
 
 .fanart-container img {

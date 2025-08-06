@@ -1,21 +1,23 @@
+.footer-outside{
+    margin:0;
+    padding:0;
+}
+
 .footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 1em;
+  padding: 1em 1em;
+  padding-top: 0;
+  margin: 0;
   font-size: 1em;
-  gap: 1em;
+  background-color: var(--light);
 }
 
 .footer img {
   max-width: 1.5em;
 }
 
-hr {
-  margin: 0;
-}
-
-.footer span {
-  align-self: center;
+.footer p {
+    margin-top: 0;
+    text-align: center;
 }
 
 .footer a {
@@ -25,8 +27,15 @@ hr {
 .footer .social-links {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer a:hover {
   transform: scale(1.1);
+}
+
+.footer-image{
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
