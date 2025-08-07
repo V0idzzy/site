@@ -1,0 +1,98 @@
+{
+    "references": [
+        {
+            "title":"2.0 Ref Sheet",
+            "username":"BlueBunnsArt",
+            "url":"https://x.com/bluebunnsart",
+            "file":"refsheet2_0.png"
+        }
+    ],
+    "models": [
+    ],
+    "emotes": [
+    ],
+    "icons": [
+        {
+            "title":"Sleepy",
+            "username":"Aihtsuki",
+            "url":"https://vgen.co/Aihtsuki",
+            "file":"eepy.png"
+        }
+    ],
+    "banners": [
+        {
+            "title":"Website Banner",
+            "username":"BlueBunnsArt",
+            "url":"https://x.com/bluebunnsart",
+            "file":"webbanner.png"
+        },
+        {
+            "title":"Eyes Light",
+            "username":"Nynbug",
+            "url":"https://vgen.co/Nynbug",
+            "file":"eyeslight.png"
+        },
+        {
+            "title":"Eyes Dark",
+            "username":"Nynbug",
+            "url":"https://vgen.co/Nynbug",
+            "file":"eyesdark.png"
+        }
+    ],
+    "panels": [
+        {
+            "title":"About Me",
+            "username":"CatsAGen",
+            "url":"https://www.instagram.com/catsagen/",
+            "file":"about.png"
+        },
+        {
+            "title":"Rules",
+            "username":"CatsAGen",
+            "url":"https://www.instagram.com/catsagen/",
+            "file":"rules.png"
+        },
+        {
+            "title":"Socials",
+            "username":"CatsAGen",
+            "url":"https://www.instagram.com/catsagen/",
+            "file":"socials.png"
+        },
+        {
+            "title":"Discord",
+            "username":"CatsAGen",
+            "url":"https://www.instagram.com/catsagen/",
+            "file":"discord.png"
+        },
+        {
+            "title":"Gifts",
+            "username":"CatsAGen",
+            "url":"https://www.instagram.com/catsagen/",
+            "file":"gifts.png"
+        }
+    ],
+    "badges": [
+        {
+            "title":"Sub Badge",
+            "username":"WinterIsRaining",
+            "url":"https://x.com/Winterisraining",
+            "file":"subbadge.png"
+        },
+        {
+            "title":"Bits Badge",
+            "username":"WinterIsRaining",
+            "url":"https://x.com/Winterisraining",
+            "file":"bitsbadge.png"
+        },
+        {
+            "title":"Channel Points",
+            "username":"WinterIsRaining",
+            "url":"https://x.com/Winterisraining",
+            "file":"channelpoints.png"
+        }
+    ],
+    "merch": [
+    ],
+    "art": [
+    ]
+}

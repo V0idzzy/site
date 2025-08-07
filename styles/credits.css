@@ -1,0 +1,44 @@
+.credit-container {
+    background-color: yellow;
+
+}
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 5%;
+    gap: 5%;
+}
+
+.category-title{
+    grid-column: span 4;
+    text-align: center;
+}
+
+.credit-card {
+    display: grid;
+    grid-template-rows: 20% 1fr auto;
+    background-color: red;
+    height: 90%;
+}
+
+.credit-title {
+    justify-self: center;
+    align-self: center;
+}
+
+.credit-image {
+    max-width: 90%;
+    max-height: 70%;
+    justify-self: center;
+    align-self: center;
+}
+
+.credit-username {
+    font-size: 0.7em;
+    justify-self: center;
+    padding-top: 10%;
+    align-self: end;
+    position: absolute;
+}
+
