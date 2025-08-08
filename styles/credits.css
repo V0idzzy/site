@@ -1,44 +1,64 @@
 .credit-container {
-    background-color: yellow;
-
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary);
 }
 
 .category-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    margin: 5%;
-    gap: 5%;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0;
 }
 
-.category-title{
-    grid-column: span 4;
+.category-title {
+    grid-column: span 3;
     text-align: center;
+    padding: 0;
+    margin: 0;
+    margin-top: 1em;
+    color: var(--light);
 }
 
 .credit-card {
+    background-color: var(--accent);
+    border-radius: 20px;
     display: grid;
-    grid-template-rows: 20% 1fr auto;
-    background-color: red;
-    height: 90%;
+    grid-template-rows: .2fr 1fr .2fr auto;
+    margin: 10%;
+    transition: .5s ease;
 }
 
 .credit-title {
     justify-self: center;
-    align-self: center;
+    padding: 0;
+    margin: 0;
+    margin-top: .5em;
 }
 
 .credit-image {
-    max-width: 90%;
-    max-height: 70%;
-    justify-self: center;
+    width: 90%;
+    object-fit: contain;
     align-self: center;
+    justify-self: center;
 }
 
 .credit-username {
     font-size: 0.7em;
     justify-self: center;
-    padding-top: 10%;
-    align-self: end;
-    position: absolute;
+    align-self: center;
 }
 
+.credit-card:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+    .category-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .category-title {
+        grid-column: span 1;
+        text-align: center;
+    }
+}

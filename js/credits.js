@@ -26,7 +26,7 @@ let AddCredits = (data) => {
         categoryContainer.setAttribute("class", "category-container");
         categoryContainer.innerHTML =
             `
-                <h1 class="category-title">${category}</h1>
+                <h1 class="category-title">${category.charAt(0).toUpperCase() + category.slice(1)}</h1>
             `;
 
         items.forEach(item => {

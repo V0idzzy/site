@@ -1,23 +1,26 @@
 :root {
-  --dark: #292861;
-  --light: #FFFFFF;
-  --primary: #7372B5;
-  --accent: #F0EDFF;
+    --dark: #292861;
+    --light: #FFFFFF;
+    --primary: #7372B5;
+    --accent: #F0EDFF;
 }
 
 body {
-  background-color: white;
-  margin: 0;
-  font-size: 2em;
-  font-family: Fredoka, sans-serif;
-  font-weight: 400;
+    background-color: white;
+    margin: 0;
+    font-size: 2em;
+    font-family: Fredoka, sans-serif;
+    font-weight: 400;
     color: var(--dark);
+    margin: 0;
+    padding: 0;
 }
 
 h1 {
     font-weight: 500;
     font-size: 1.5em;
 }
+
 h2 {
     font-weight: 500;
     font-size: 1em;
