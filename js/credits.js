@@ -30,7 +30,6 @@ let AddCredits = (data) => {
             `;
 
         items.forEach(item => {
-            console.log(`Category: ${category}\nTitle:${item.title}\nUsername:${item.username}\nURL:${item.url}\nFile:pics/comissions/${category}/${item.file}`);
             let credit = document.createElement('div');
             credit.setAttribute("class", "credit-card");
             credit.innerHTML = 
@@ -41,6 +40,6 @@ let AddCredits = (data) => {
             `;
             categoryContainer.appendChild(credit);
         });
-        credits.appendChild(categoryContainer)
+        credits.appendChild(categoryContainer);
     }
 }
