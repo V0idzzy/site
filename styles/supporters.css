@@ -8,4 +8,5 @@
     margin: 0;
     padding: 1em;
     text-align: center;
+    color: var(--accent);
 }
