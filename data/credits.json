@@ -8,8 +8,380 @@
         }
     ],
     "models": [
+        {
+            "title":"First Model",
+            "username":"V0idzzy",
+            "url":"",
+            "file":"0_1.png"
+        }
     ],
     "emotes": [
+        {
+            "title":"4k",
+            "username":"",
+            "url":"",
+            "file":"4k.png"
+        },
+        {
+            "title":"Angy",
+            "username":"",
+            "url":"",
+            "file":"Angy.png"
+        },
+        {
+            "title":"Announce",
+            "username":"",
+            "url":"",
+            "file":"Announce.png"
+        },
+        {
+            "title":"Bark",
+            "username":"",
+            "url":"",
+            "file":"Bark.gif"
+        },
+        {
+            "title":"Bedge",
+            "username":"",
+            "url":"",
+            "file":"Bedge.png"
+        },
+        {
+            "title":"Blankies",
+            "username":"",
+            "url":"",
+            "file":"Blankies.gif"
+        },
+        {
+            "title":"Blep",
+            "username":"",
+            "url":"",
+            "file":"Blep.png"
+        },
+        {
+            "title":"Bonk",
+            "username":"",
+            "url":"",
+            "file":"Bonk.png"
+        },
+        {
+            "title":"Bye",
+            "username":"",
+            "url":"",
+            "file":"Bye.gif"
+        },
+        {
+            "title":"Cool",
+            "username":"",
+            "url":"",
+            "file":"Cool.png"
+        },
+        {
+            "title":"Copium.png",
+            "username":"",
+            "url":"",
+            "file":"Copium.png"
+        },
+        {
+            "title":"Cozy",
+            "username":"",
+            "url":"",
+            "file":"Cozy.png"
+        },
+        {
+            "title":"Cry",
+            "username":"",
+            "url":"",
+            "file":"Cry.png"
+        },
+        {
+            "title":"Cuddle",
+            "username":"",
+            "url":"",
+            "file":"Cuddle.png"
+        },
+        {
+            "title":"CultWow",
+            "username":"",
+            "url":"",
+            "file":"CultWow.png"
+        },
+        {
+            "title":"Derp",
+            "username":"",
+            "url":"",
+            "file":"Derp.png"
+        },
+        {
+            "title":"Drive",
+            "username":"",
+            "url":"",
+            "file":"Drive.gif"
+        },
+        {
+            "title":"FastNodders",
+            "username":"",
+            "url":"",
+            "file":"FastNodders.gif"
+        },
+        {
+            "title":"Fish",
+            "username":"",
+            "url":"",
+            "file":"Fish.png"
+        },
+        {
+            "title":"FixGlasses",
+            "username":"",
+            "url":"",
+            "file":"FixGlasses.png"
+        },
+        {
+            "title":"Glitch",
+            "username":"",
+            "url":"",
+            "file":"Glitch.gif"
+        },
+        {
+            "title":"Gun",
+            "username":"",
+            "url":"",
+            "file":"Gun.gif"
+        },
+        {
+            "title":"Heart",
+            "username":"",
+            "url":"",
+            "file":"Heart.png"
+        },
+        {
+            "title":"Hi",
+            "username":"",
+            "url":"",
+            "file":"Hi.gif"
+        },
+        {
+            "title":"Hug",
+            "username":"",
+            "url":"",
+            "file":"Hug.png"
+        },
+        {
+            "title":"Hydrate",
+            "username":"",
+            "url":"",
+            "file":"Hydrate.gif"
+        },
+        {
+            "title":"KawaiiPillow",
+            "username":"",
+            "url":"",
+            "file":"KawaiiPillow.png"
+        },
+        {
+            "title":"KotaWag",
+            "username":"",
+            "url":"",
+            "file":"KotaWag.gif"
+        },
+        {
+            "title":"Loading",
+            "username":"",
+            "url":"",
+            "file":"Loading.png"
+        },
+        {
+            "title":"Milk",
+            "username":"",
+            "url":"",
+            "file":"Milk.png"
+        },
+        {
+            "title":"Modcheck",
+            "username":"",
+            "url":"",
+            "file":"Modcheck.gif"
+        },
+        {
+            "title":"Nodders",
+            "username":"",
+            "url":"",
+            "file":"Nodders.gif"
+        },
+        {
+            "title":"Nom",
+            "username":"",
+            "url":"",
+            "file":"Nom.png"
+        },
+        {
+            "title":"Noted",
+            "username":"",
+            "url":"",
+            "file":"Noted.png"
+        },
+        {
+            "title":"Peek",
+            "username":"",
+            "url":"",
+            "file":"Peek.png"
+        },
+        {
+            "title":"Pet",
+            "username":"",
+            "url":"",
+            "file":"Pet.gif"
+        },
+        {
+            "title":"Fire",
+            "username":"",
+            "url":"",
+            "file":"Fire.png"
+        },
+        {
+            "title":"Bocchi",
+            "username":"",
+            "url":"",
+            "file":"Bocchi.gif"
+        },
+        {
+            "title":"Pew",
+            "username":"",
+            "url":"",
+            "file":"Pew.png"
+        },
+        {
+            "title":"PillowFight",
+            "username":"",
+            "url":"",
+            "file":"PillowFight.gif"
+        },
+        {
+            "title": "Pout",
+            "username": "",
+            "url": "",
+            "file": "Pout.png"
+        },
+        {
+            "title": "Raid",
+            "username": "",
+            "url": "",
+            "file": "Raid.png"
+        },
+        {
+            "title": "Rave",
+            "username": "",
+            "url": "",
+            "file": "Rave.gif"
+        },
+        {
+            "title": "Scared",
+            "username": "",
+            "url": "",
+            "file": "Scared.png"
+        },
+        {
+            "title": "Shake",
+            "username": "",
+            "url": "",
+            "file": "Shake.gif"
+        },
+        {
+            "title": "Shy",
+            "username": "",
+            "url": "",
+            "file": "Shy.png"
+        },
+        {
+            "title": "Smug",
+            "username": "",
+            "url": "",
+            "file": "Smug.png"
+        },
+        {
+            "title": "Snak",
+            "username": "",
+            "url": "",
+            "file": "Snak.png"
+        },
+        {
+            "title": "Sob",
+            "username": "",
+            "url": "",
+            "file": "Sob.gif"
+        },
+        {
+            "title": "Squish",
+            "username": "",
+            "url": "",
+            "file": "Squish.gif"
+        },
+        {
+            "title": "Tappy",
+            "username": "",
+            "url": "",
+            "file": "Tappy.gif"
+        },
+        {
+            "title": "ThumbsUp",
+            "username": "",
+            "url": "",
+            "file": "ThumbsUp.png"
+        },
+        {
+            "title": "Typing",
+            "username": "",
+            "url": "",
+            "file": "Typing.gif"
+        },
+        {
+            "title": "UwU",
+            "username": "",
+            "url": "",
+            "file": "UwU.png"
+        },
+        {
+            "title": "VoidlingBonk",
+            "username": "",
+            "url": "",
+            "file": "VoidlingBonk.png"
+        },
+        {
+            "title": "VoidlingLaugh",
+            "username": "",
+            "url": "",
+            "file": "VoidlingLaugh.gif"
+        },
+        {
+            "title": "VoidlingPeek",
+            "username": "",
+            "url": "",
+            "file": "VoidlingPeek.png"
+        },
+        {
+            "title": "Wave",
+            "username": "",
+            "url": "",
+            "file": "Wave.gif"
+        },
+        {
+            "title": "Wokege",
+            "username": "",
+            "url": "",
+            "file": "Wokege.png"
+        },
+        {
+            "title": "Wow",
+            "username": "",
+            "url": "",
+            "file": "Wow.png"
+        },
+        {
+            "title": "Yay",
+            "username": "",
+            "url": "",
+            "file": "Yay.gif"
+        }
     ],
     "icons": [
         {
