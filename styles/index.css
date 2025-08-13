@@ -1,81 +1,94 @@
 .description {
-  background-color: var(--accent);
-  text-align:center;
-  padding-bottom: 2em;
+    background-color: var(--accent);
+    text-align: center;
+    padding-bottom: 2em;
 }
 
 .description h1 {
-  padding: 0.5em 0em;
-  margin: 0;
+    padding: 0.5em 0em;
+    margin: 0;
 }
 
 .description p {
-  padding: 0.5em 0em;
-  margin: 0 20% ;
+    padding: 0.5em 0em;
+    margin: 0 20%;
 }
 
 .description img {
-  width: 100%;
-  padding-bottom: 2em;
+    width: 100%;
+    padding-bottom: 2em;
 }
 
 .links {
-  background-color: var(--primary);
-  color: var(--light);
-  padding-bottom: 1em;
+    background-color: var(--primary);
+    color: var(--light);
+    padding-bottom: 1em;
 }
 
 .link-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 0% 15%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0% 15%;
 }
 
 .links h1 {
-  margin: 0;
-  padding-left: 1em;
-  padding-top: 1em;
-  text-align:center;
-  padding-bottom: 1em;
+    margin: 0;
+    padding-left: 1em;
+    padding-top: 1em;
+    text-align: center;
+    padding-bottom: 1em;
 }
 
 .links a:first-of-type {
-  padding: 1%;
-  margin: 2.5% 30%;
-  grid-column: span 2;
+    padding: 1%;
+    margin: 2.5% 30%;
+    grid-column: span 2;
 }
 
 .links img {
-  max-width: 2em;
+    max-width: 2em;
 }
 
 .links a {
-  display: flex;
-  gap: 1em;
-  text-align: center;
-  text-decoration: none;
-  background-color: var(--accent);
-  margin: 5% 10%;
-  padding: 2%;
-  border-width: 4px;
-  border-radius: 100px;
-  transition: 0.5s ease;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--accent);
+    margin: 5% 10%;
+    padding: 2%;
+    border-width: 4px;
+    border-radius: 100px;
+    transition: 0.5s ease;
+    align-items: center;
+    justify-content: center;
 }
 
 .links a:hover {
-  transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 @media (max-width: 800px) {
-  .links a {
-    grid-column: span 2;
-  }
+    .links a {
+        grid-column: span 2;
+    }
 
-  .links a:first-of-type {
-    margin: 5% 10%;
-    padding: 2%;
-    grid-column: span 2;
-  }
+    .links a:first-of-type {
+        margin: 5% 10%;
+        padding: 2%;
+        grid-column: span 2;
+    }
+}
+
+@media (max-width: 440px) {
+    .links a {
+        grid-column: span 2;
+        font-size: 50%;
+    }
+
+    .links a:first-of-type {
+        margin: 5% 10%;
+        padding: 2%;
+        grid-column: span 2;
+    }
 }
