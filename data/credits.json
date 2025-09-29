@@ -28,7 +28,7 @@
         },
         {
             "title": "Sweater Update 1.1",
-            "username": "Impo1",
+            "username": "Impo",
             "url": "https://www.twitch.tv/impo1/",
             "file": "1.1.jpg"
         },
@@ -103,6 +103,12 @@
             "username":"CatsAGen",
             "url":"https://www.instagram.com/catsagen/",
             "file": "voidlingTeamRed.png"
+        },
+        {
+            "title": "Mummzzy",
+            "username":"CatsAGen",
+            "url":"https://www.instagram.com/catsagen/",
+            "file": "mumzzy.gif"
         }
     ],
     "emotes": [
