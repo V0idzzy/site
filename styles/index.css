@@ -39,11 +39,11 @@
     padding-bottom: 1em;
 }
 
-.links a:first-of-type {
+/*.links a:first-of-type {
     padding: 1%;
     margin: 2.5% 30%;
     grid-column: span 2;
-}
+}*/
 
 .links img {
     max-width: 2em;
