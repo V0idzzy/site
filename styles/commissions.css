@@ -83,7 +83,7 @@ h1 {
     }
 
     .sidebar {
-        width: 80vw;
+        width: 90vw;
         /* make it wider for mobile */
         max-width: none;
         /* allow full width */
