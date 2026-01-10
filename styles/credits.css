@@ -1,64 +1,137 @@
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    /* uses whatever background image is already set */
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    z-index: -1;
+    /* behind all content */
+}
+
+/* Masonry using columns */
 .credit-container {
-    margin: 0;
-    padding: 0;
-    background-color: var(--primary);
+    column-count: 4;
+    /* adjust as needed */
+    column-gap: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.category-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    margin: 0;
-}
-
-.category-title {
-    grid-column: span 3;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    margin-top: 1em;
-    color: var(--light);
-}
-
+/* Each image card */
 .credit-card {
-    background-color: var(--accent);
-    border-radius: 20px;
-    display: grid;
-    grid-template-rows: .2fr 1fr .2fr auto;
-    margin: 10%;
-    transition: .5s ease;
+    display: inline-block;
+    /* preserves natural height */
+    width: 100%;
+    margin: 0 0 10px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.credit-title {
-    justify-self: center;
-    padding: 0;
-    margin: 0;
-    margin-top: .5em;
+.credit-card img.credit-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
 }
 
-.credit-image {
-    width: 90%;
-    object-fit: contain;
-    align-self: center;
-    justify-self: center;
+.credit-card:hover img.credit-image {
+    transform: scale(1.08);
 }
 
-.credit-username {
-    font-size: 0.7em;
-    justify-self: center;
-    align-self: center;
-}
-
+/* Shadow on hover */
 .credit-card:hover {
-    transform: scale(1.1);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
 }
 
-@media (max-width: 800px) {
-    .category-container {
-        grid-template-columns: repeat(1, 1fr);
-    }
+/* Twitter handle overlay */
+.credit-card a.credit-username {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
 
-    .category-title {
-        grid-column: span 1;
-        text-align: center;
+.credit-card:hover a.credit-username {
+    opacity: 1;
+}
+
+/* Category overlay */
+.credit-card .category-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 6px 10px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.credit-card:hover .category-title {
+    opacity: 1;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1024px) {
+    .credit-container {
+        column-count: 2;
     }
+}
+
+@media screen and (max-width: 600px) {
+    .credit-container {
+        column-count: 1;
+    }
+}
+
+.top-left-link {
+    position: fixed;
+    /* stays in top-left corner */
+    top: 1em;
+    left: 1em;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    /* matches your icons */
+    text-decoration: none;
+    /* remove underline */
+    padding: 0.5em 1em;
+    background: rgba(0, 120, 255, 0.25);
+    /* optional subtle background */
+    border-radius: 8px;
+    /* rounded edges */
+    transition: all 0.2s ease;
+    z-index: 1;
+}
+
+.top-left-link:hover {
+    background: rgba(64, 160, 255, 0.35);
+    /* slightly brighter on hover */
+    cursor: pointer;
 }
