@@ -1,0 +1,178 @@
+/* Full viewport page container */
+.page {
+    display: flex;
+    justify-content: center;
+    /* push sidebar to right */
+    align-items: center;
+    /* vertically center if extra space */
+    min-height: 100vh;
+    padding: 1em 0;
+    /* min top/bottom spacing */
+    box-sizing: border-box;
+    overflow-y: auto;
+    /* allow scrolling if sidebar too tall */
+}
+
+/* Sidebar itself */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    width: 80vw;
+    max-width: 1200px;
+
+    padding: 40px;
+
+    /* Gradient background */
+    background: linear-gradient(to bottom,
+            rgba(128, 64, 200, 0.5),
+            /* muted purple */
+            rgba(64, 160, 255, 0.5));
+    /* muted blue */
+
+    /* Glass blur */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+
+    /* Rounded left corners */
+    border-radius: 25px;
+
+    /* Shadow from top-right light */
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.2);
+
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+}
+
+h1 {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.description h2 {
+    font-size: 1.5em;
+    margin: 1%;
+}
+
+.price-desc {
+    margin: 10%;
+    margin-bottom: 5%;
+    margin-top: 0%;
+}
+
+
+.price-desc h3 {
+    margin-bottom: 3%;
+}
+
+.price-desc p {
+    margin: 10%;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-right: 3%;
+}
+
+/* ===== Mobile View ===== */
+@media (max-width: 768px) {
+    .page {
+        justify-content: center;
+        /* center horizontally on mobile */
+        padding: 1em;
+        /* reduce side padding if needed */
+    }
+
+    .sidebar {
+        width: 80vw;
+        /* make it wider for mobile */
+        max-width: none;
+        /* allow full width */
+        border-radius: 25px;
+        /* keep rounded corners */
+    }
+
+    h1 {
+        text-align: center;
+        word-wrap: break-word;
+    }
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.description h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.description p {
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+
+.description img {
+    width: 100%;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.link-container img {
+    transition: 300ms;
+    margin: 5px;
+}
+
+.link-container img:hover {
+    transform: scale(1.1);
+}
+
+.navigation {
+    display: flex;
+    /* inline, side by side */
+    gap: 15px;
+    /* space between links */
+    justify-content: center;
+    /* center on the page */
+    align-items: center;
+    /* vertically center if needed */
+    padding: 10px;
+    padding-bottom: 2px;
+}
+
+.navigation a {
+    display: inline-block;
+    padding: 8px 16px;
+    font-size: .7em;
+    font-weight: 500;
+    color: white;
+    /* text color */
+    text-decoration: none;
+    border-radius: 8px;
+    /* rounded corners */
+    background: rgba(128, 0, 255, 0.15);
+    /* subtle purple background */
+    transition: all 0.3s ease;
+}
+
+.navigation a:hover {
+    background: rgba(0, 120, 255, 0.15);
+    /* subtle blue on hover */
+    transform: translateY(-2px);
+    /* subtle lift effect */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.navigation a:focus {
+    outline: 2px solid rgba(128, 0, 255, 0.4);
+    outline-offset: 2px;
+}
