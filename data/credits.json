@@ -109,7 +109,14 @@
             "username":"CatsAGen",
             "url":"https://www.instagram.com/catsagen/",
             "file": "mumzzy.gif"
+        },
+        {
+            "title": "Swing",
+            "username":"Tsp",
+            "url":"https://www.vgen.com/Tspchan1",
+            "file": "Swing.gif"
         }
+
     ],
     "emotes": [
         {
@@ -483,6 +490,48 @@
             "username":"Rytsa",
             "url":"https://vgen.co/rytsa",
             "file": "Yay.gif"
+        },
+        {
+            "title": "SadGamba",
+            "username":"cheu",
+            "url":"https://vgen.co/cheu",
+            "file": "SadGamba.gif"
+        },
+        {
+            "title": "HappyGamba",
+            "username":"cheu",
+            "url":"https://vgen.co/cheu",
+            "file": "HappyGamba.gif"
+        },
+        {
+            "title": "Dancing",
+            "username":"izamorgenstern",
+            "url":"https://vgen.co/izamorgenstern",
+            "file": "Dancing.gif"
+        },
+        {
+            "title": "Sus",
+            "username":"cheu",
+            "url":"https://vgen.co/cheu",
+            "file": "Sus.gif"
+        },
+        {
+            "title": "Clap",
+            "username":"cheu",
+            "url":"https://vgen.co/cheu",
+            "file": "Clap.gif"
+        },
+        {
+            "title": "Nom",
+            "username":"cheu",
+            "url":"https://vgen.co/cheu",
+            "file": "Nom.gif"
+        },
+        {
+            "title": "Smooch",
+            "username":"cheu",
+            "url":"https://vgen.co/cheu",
+            "file": "Smooch.gif"
         }
     ],
     "icons": [
@@ -491,6 +540,12 @@
             "username":"Aihtsuki",
             "url":"https://vgen.co/Aihtsuki",
             "file":"eepy.png"
+        },
+        {
+            "title":"PuppyHeart",
+            "username":"BlueBunnsArt",
+            "url":"https://x.com/bluebunnsart",
+            "file":"PuppyHeart.png"
         }
     ],
     "banners": [
